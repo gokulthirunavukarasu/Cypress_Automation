@@ -1,0 +1,45 @@
+{
+    "login": {
+        "username": "//*[@type='email']",
+        "password": "//*[@type='password']",
+        "loginBtn": "//*[@type='submit']"
+    },
+    "projectList": {
+        "WellPerformance": "body > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > nav:nth-child(2) > ul:nth-child(2) > li:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(4) > div:nth-child(1) > button:nth-child(1)",
+        "WellPerformanceAdmin": "",
+        "HSR": "(//*[@class='text-primary-900 w-full mb-1'])[15]",
+        "portfoilio": "(//*[@class='text-primary-900 w-full mb-1'])[15]",
+        "community": "(//*[@class='text-primary-900 w-full mb-1'])[15]",
+        "projectMenu": "(//*[@class='cursor-default hover:bg-primary-800 text-white hover:font-bold transition-colors border-b-2 hover:border-primary-900 border-primary-800 h-full w-full px-6 relative flex justify-center'])[1]",
+        "idAdmin": "",
+        "pagnition": "[class='cursor-not-allowed rounded-r-md -ml-px relative inline-flex items-center px-2 py-2 color- border border-gray-300 bg-white text-sm leading-5 font-medium text-gray-500 hover:text-gray-400 focus:z-10 focus:outline-none focus:border-blue-300 focus:shadow-outline-blue active:bg-gray-100 active:text-gray-500 transition ease-in-out duration-150']",
+        "getProjectCount": "[class='font-medium']",
+        "IDorNamesearch": "[class='h-10 text-primary-700 appearance-none w-full px-3 py-2 mb-4 border border-primary-300 rounded-md placeholder-primary-400 focus:outline-none focus:shadow-outline-blue focus:border-blue-300 transition duration-150 ease-in-out sm:text-sm sm:leading-5']",
+        "Applysearch": "[class='formulate-input-element--submit--label']",
+        "clearfliter": "[class='shadow-md w-full my-auto flex justify-center py-2 px-2 border text-sm font-medium rounded-md transition duration-150 ease-in-out w-full inline-flex justify-center py-2 px-4 border border-primary-300 rounded-md bg-white text-sm font-medium text-primary-500 hover:text-primary-400 focus:outline-none focus:border-blue-300 focus:shadow-outline-blue transition duration-150 ease-in-out']",
+        "startNewProject": "[class='border-transparent bg-primary-600 shadow-md w-full my-auto flex justify-center py-2 px-2 border text-sm font-medium rounded-md transition duration-150 ease-in-out hover:bg-primary-500 hover:border-primary-700 active:bg-primary-700 text-white transition duration-150 ease-in-out']"
+    },
+    "enrollment": {
+        "EnrollOption": "[class='px-4 flex focus:outline-none py-3 text-primary-700 w-full focus:outline-none']",
+        "verifyEnrollOptionCount": "[class='mt-2 text-sm text-red-600']",
+        "enrollbtn": "[class='border-transparent bg-primary-600 shadow-md w-full my-auto flex justify-center py-2 px-2 border text-sm font-medium rounded-md transition duration-150 ease-in-out hover:bg-primary-500 hover:border-primary-700 active:bg-primary-700 text-white transition duration-150 ease-in-out']",
+        "backHomepagebtn": "[class='shadow-md w-full my-auto flex justify-center py-2 px-2 border text-sm font-medium rounded-md transition duration-150 ease-in-out w-full inline-flex justify-center py-2 px-4 border border-primary-300 rounded-md bg-white text-sm font-medium text-primary-500 hover:text-primary-400 focus:outline-none focus:border-blue-300 focus:shadow-outline-blue transition duration-150 ease-in-out']",
+        "OrgContinebtn": "[class='focus:outline-none border-transparent bg-primary-600 disabled:opacity-50 primary-btn hover:bg-primary-500 hover:border-primary-700 active:bg-primary-700 text-white shadow-md w-full my-auto flex justify-center py-2 px-2 border text-sm font-medium rounded-md transition duration-150 ease-in-out']",
+        "OrgErrorMsg": "[class='mt-2 text-sm text-red-600']",
+        "OrgName": "[name='organization']",
+        "OwnerInfocbx": "[name='another organization']",
+        "OwnerOrgName": "[class='multiselect__tags']",
+        "CountryOrSector": "[class='text-primary-700 form-select relative block w-full mb-4 rounded-md bg-transparent focus:z-10 transition ease-in-out duration-150 sm:text-sm sm:leading-5 border-primary-300']",
+        "OrgAddress": "[data-id='address-input']",
+        "OrgCity": "[data-id='city-input']",
+        "OrgPostalcode": "[data-id='postal-input']",
+        "OrgOwnerInfoCbx": "[class='focus:ring-primary-500 h-4 w-4 text-primary-600 border-primary-300']",
+        "Ownercbx": "[name='on behalf of owner']",
+        "ownerOrgIWBI": "[class='text-primary-700 form-select relative block w-full mb-4 rounded-md bg-transparent focus:z-10 transition ease-in-out duration-150 sm:text-sm sm:leading-5 border-primary-300']",
+        "orgOwnererrormessage": "[class='mt-2 text-sm text-red-600']",
+        "describeLoc": "[class='multiselect__tags']",
+        "LocContinuebtn": "[class='formulate-input-element--submit--label']",
+        "enrollLocOrSqfeet": "[class='h-10 text-primary-700 appearance-none w-full px-3 py-2 mb-4 border border-primary-300 rounded-md placeholder-primary-400 focus:outline-none focus:shadow-outline-blue focus:border-blue-300 transition duration-150 ease-in-out sm:text-sm sm:leading-5']",
+        "SqContinue": "[class='focus:outline-none border-transparent bg-primary-600 disabled:opacity-50 primary-btn hover:bg-primary-500 hover:border-primary-700 active:bg-primary-700 text-white shadow-md w-full my-auto flex justify-center py-2 px-2 border text-sm font-medium rounded-md transition duration-150 ease-in-out']"
+    }
+}

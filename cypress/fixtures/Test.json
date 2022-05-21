@@ -1,0 +1,26 @@
+{
+  "login":{
+  "invalidemail": "well123@gmail.com",
+  "invalidpass": "init",
+  "email": "welluiautomationtesting@gmail.com",
+  "password": "initpass",
+  "adminUsername": "testuserdevid@gmail.com",
+  "adminPassword": "initpass",
+  "url": "https://test-nuxt.wellcertified.com/"
+  },
+  "projectlist":{
+  "id": "WPR005623",
+  "projectName":"UiAutomation"
+  },
+"enrollment":{
+  "ownerOrganization": "International WELL Building Institute",
+  "orgCountry":"India",
+  "orgSector":"Residential",
+"orgIndustry":"Multifamily",
+"stateName": "Karnataka",
+"streetName": "samplestreet",
+"cityName": "samplecity",
+"postalCode": "111111"
+}
+}
+  
