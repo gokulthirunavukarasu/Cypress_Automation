@@ -11,7 +11,9 @@
     "test:open": "cypress open",
     "eject": "react-scripts eject",
     "start-server": "nodemon server.js",
-    "scripts": "cypress run --browser electron",
+    "scripts": "cypress run --browser chrome",
+    "clean:reports": "if exist reports rmdir /S/Q reports",
+    "pretest": "npm run clean:reports",
     "smoketest": "npx cypress-tags run --env \"TAGS=@SmokeTest\" --headed --browser chrome",
     "demo": "npx cypress-tags run --env \"TAGS=@SmokeTestDemo\" --headed --browser chrome",
     "regressiontest": "npx cypress-tags run --env \"TAGS=@RegressionTest\" --headed --browser chrome",
@@ -19,7 +21,7 @@
     "test:smoketest": "npm run pretest && npm run smoketest && npm run posttest",
     "test:demo": "npm run pretest && npm run demo && npm run posttest",
     "fileCreateZip":"node zipfIlecreation.js",
-    "test": "npm run scripts && npm run posttest && npm run fileCreateZip"
+    "test": "npm run scripts || npm run posttest"
   },
   "bin": {
     "cypress-tags": "cypress-tags.js"
